@@ -89,6 +89,7 @@
 
 import React, { useState } from 'react';
 import { Container, Table, Form, Button, Badge } from 'react-bootstrap';
+import '../styles/events.css';
 
 const mockEvents = [
   { id: 1, title: 'Easter Service', date: '2025-04-30', location: 'Main Hall', clergy: 'Rev. John', notify: false },

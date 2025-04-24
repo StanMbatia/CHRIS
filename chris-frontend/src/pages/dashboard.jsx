@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, Carousel, Button } from 'react-bootstrap';
 import img1 from '../public/img1.JPG';
 import img3 from '../public/img3.JPG';
+import '../styles/dashboard.css';
+
+
 
 export default function Dashboard() {
   return (

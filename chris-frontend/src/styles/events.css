@@ -1,0 +1,31 @@
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .events-table th, .events-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .events-table th {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .events-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .events-table tr:hover {
+    background-color: #eef6fb;
+  }
+  
+  .filter-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  

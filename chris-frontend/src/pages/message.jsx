@@ -70,6 +70,8 @@
 // }
 import React, { useState } from 'react';
 import { Container, Tab, Tabs, Button, Modal, Form, ListGroup } from 'react-bootstrap';
+import '../styles/message.css';
+
 
 const users = ['Rev. John', 'Rev. Mary', 'Clerk', 'Official'];
 

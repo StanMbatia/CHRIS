@@ -1,0 +1,26 @@
+.dashboard-background {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .dashboard-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../public/signup-bg.jpg') no-repeat center center/cover;
+    opacity: 0.3;
+    animation: slide 20s infinite;
+    z-index: -1;
+  }
+  
+  @keyframes slide {
+    0% { background-image: url('../public/img1.JPG'); }
+    33% { background-image: url('../public/img2.JPG'); }
+    66% { background-image: url('../public/img3.JPG'); }
+    100% { background-image: url('../public/signup-bg.jpg'); }
+  }
+  
